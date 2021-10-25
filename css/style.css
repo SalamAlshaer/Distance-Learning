@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: url(../img/bg.jpg) no-repeat center center;
+    height: 600px;
+    background-size: cover;
+}
+header #topnav{
+   height: 60px;
+   background-color: #41658e;
+   position: fixed;
+   width: 100%;
+   padding: 0 50px;
+}
+#logo{
+    width: 30%;
+    float: left;
+    padding-top: 15px;
+}
+#topnav .logoicon{
+    color: #fff;
+    font-size: 30px;
+}
+#mainnav{
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+#mainnav .navitem{
+    color: #fff;
+    margin-left: 20px;
+    display: inline-block;
+    height: 60px;
+    padding: 20px 10px;
+}
+#mainnav .navitem:hover{
+    color: #000;
+}
+#mainnav .navitem:focus{
+    background-color: #fff;
+    color:#41658e;
+}
+#head{
+    padding-top: 300px;
+    margin-left: 50px;
+}
+#head .sitetitle{
+    background-color: #41658e;
+    color: #fff;
+    width: 35%;
+    padding: 10px;
+}
+#Services{
+    padding: 20px;
+    background-color: rgb(221, 216, 216);
+    height: 400px;
+}
+#services_sec .sechead{
+    text-align: center;
+    color: #41658e;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#Services .headhr{
+    width: 8%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#services_sec .service{
+    float: left;
+    width: 32.333%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    height: 250px;
+}
+#services_sec .service2, #services_sec .service3{
+    margin-left: 1.5%;
+}
+.service .num{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #41658e;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.service .serviceName{
+    text-transform: capitalize;
+    color: #41658e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.service .servicedescr{
+    text-align: justify;
+    line-height: 1.5;
+    color: #0b2644;
+}
+.service:hover{
+    background-color: #41658e;
+}
+.service:hover .servicedescr, .service:hover .serviceName{
+    color: #fff;
+}
+.service:hover .num{
+    color: #41658e;
+    background-color: #fff;
+}
+footer{
+    background: url(../img/bg.jpg) no-repeat center center;
+    height: 300px;
+    background-size: cover;
+}
+footer #footer{
+    background: rgba(9, 9, 41, 0.9);
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+}
+#footer .side{
+    float: left;
+    width: 33.3333%;
+    padding: 30px;
+    color: #fff;
+}
+#footer .side-title{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.infoside .site-about{
+    margin-bottom: 15px;
+}
+.infoside .social{
+    text-align: center;
+}
+.social .socialicon{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.qlinks .qlink-item{
+    color: #fff;
+}
+.qlinks .qlink-li{
+    margin-bottom: 10px;
+}
+.contactform .inputf, .contactform .inputarea{
+    display: block;
+}
+.side .contactform .inputf{
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 8px;
+}
+.side .contactform .inputarea{
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 8px;
+}
+.side .contactform .btn{
+    display: inline-block;
+    width: 350px;
+    text-transform: uppercase;
+    color: #41658e;
+    border-radius: 5px;
+    height: 35px;
+}
+.side .contactform .btn:hover{
+    color: #fff;
+    background-color: #41658e;
+}
+#copyright{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0,0.9);
+    color: #fff;
+    height: 25px;
+}
+   
