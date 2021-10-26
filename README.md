@@ -1,4 +1,4 @@
-# :hugs: Welcome all to my project :hugs:
+# :hugs: _Welcome all to my project_ :hugs:
 ## Description :anger:
 * This project contains and focuses on many and varied features of CSS.
 ### Skills :writing_hand:
