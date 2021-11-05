@@ -12,7 +12,7 @@
 
 
 #### Visit Site :point_down:
-[Click Here](https://salamalshaer.github.io/project2/)
+[Click Here](https://salamalshaer.github.io/Distance-Learning/)
 
 
 ![](img/bg.jpg)
